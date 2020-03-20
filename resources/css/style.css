@@ -1,10 +1,12 @@
+/* -------------------- VARIABLES */
+/* -------------------- GLOBAL DEFAULTS */ 
 body {
     background-color: pink;
     font-family: Arial, Helvetica, sans-serif;
 
     color: #666;
 }
-
+/* -------------------- HEADINGS AND TYPE */
 h1 {
     font-size: 40px;
 }
@@ -21,3 +23,16 @@ h3 {
 p {
     color: green;
 }
+ /* -------------------- LAYOUTS */
+/* -------------------- HEADER */
+/* -------------------- NAVIGATION */
+/* -------------------- FOOTER */
+/* -------------------- MODULES */
+
+
+
+
+
+
+
+
