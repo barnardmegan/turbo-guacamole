@@ -1,7 +1,7 @@
 /* -------------------- VARIABLES */
 /* -------------------- GLOBAL DEFAULTS */ 
 body {
-    background-color: #f3dcd4;
+    background-color: #f1bdb7;
     font-family: 'Gothic A1', sans-serif;
     font-weight: 300;
 
@@ -10,6 +10,7 @@ body {
 
 img {
     max-width: 100%;
+    height: auto;
 }
 /* -------------------- HEADINGS AND TYPE */
 
@@ -50,7 +51,7 @@ p {
 
  /* -------------------- LAYOUTS */
  .content{
-     background-color: #e0d5c7;
+     background-color: #f3edeb;
      max-width: 1000px;
      margin-left: auto;
      margin-right: auto;
@@ -80,7 +81,7 @@ footer {
 }
 
 .news-component h2 {
- color: red;   
+ color: #f1bdb7;   
 }
 
 
