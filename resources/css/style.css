@@ -44,6 +44,9 @@ p {
     font-weight: 300;
 }
 
+.emphasised-text {
+    font-style: italic;
+}
 
  /* -------------------- LAYOUTS */
  .content{
@@ -61,11 +64,24 @@ p {
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer {
-    background-color: red
+    background-color: #f3dcd4 
 }
 /* -------------------- MODULES */
 
+.news-component {
+    border: 1px solid black
+    
+    bordder-width:2px;
+    border-style: solid;
+    border-color: black;
 
+    padding: 3%;
+
+}
+
+.news-component h2 {
+ color: red;   
+}
 
 
 
