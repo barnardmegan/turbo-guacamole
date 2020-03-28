@@ -12,6 +12,7 @@ img {
     max-width: 100%;
     height: auto;
 }
+
 /* -------------------- HEADINGS AND TYPE */
 
 h1,
@@ -58,8 +59,6 @@ p {
      padding-left: 3%;
      padding-right: 3%;
 
-
-    
  }
 /* -------------------- HEADER */
 /* -------------------- NAVIGATION */
@@ -118,3 +117,4 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
+
