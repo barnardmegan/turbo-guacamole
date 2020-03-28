@@ -72,11 +72,15 @@ footer {
 .news-component {
     border: 1px solid black
     
-    bordder-width:2px;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
 
     padding: 3%;
+
+    margin-bottom: 20px;
+
+    overflow: hidden;
 
 }
 
@@ -84,8 +88,21 @@ footer {
  color: #000000;   
 }
 
+.news-component img {
+    float: left;
+    margin-right: 20px;
+}
 
+.news-component-offset {
+    background-color: #ffffff;
+}
 
+.news-component-offset img {
+    float: right;
+    margin-left: 20px;
+    margin-right: 0;
+    
+}
 
 
 
