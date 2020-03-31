@@ -118,3 +118,20 @@ footer {
     grid-gap: 20px;
 }
 
+@media screen and (min-width: 500px) {
+
+.news-component-columns {
+    grid-template-columns: 1fr 1fe;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
