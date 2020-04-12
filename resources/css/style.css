@@ -89,14 +89,7 @@ header {
     padding-bottom: var(--vertical-spacer)
 }
 
-header h1 {
-    margin-top: 0;
-    color: #000000;
-}
 
-header p {
-    color: #000000;
-}
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer {
