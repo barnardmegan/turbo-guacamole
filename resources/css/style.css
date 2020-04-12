@@ -107,6 +107,21 @@ header a {
 .header-sub-heading {
     font-size: 20px;
 }
+
+@media screen and (min-width: 800px) {
+
+    header {
+        text-align: left;
+    }
+
+.header-heading {
+    font-size: 56px;
+
+.header-logo img {
+    max-width: 200px;
+}
+
+}
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer {
