@@ -86,10 +86,27 @@ p {
 header {
     background-color:  var(--alternate-bg-color) ;
     padding-top: var(--vertical-spacer);
-    padding-bottom: var(--vertical-spacer)
+    padding-bottom: var(--vertical-spacer);
+
+    text-align: center;
+    color: #000000;
 }
 
+header a {
+    text-decoration: none;
+}
 
+.header-logo img {
+    max-width: 100px;
+}
+
+.header-heading {
+    font-size: 32px;
+}
+
+.header-sub-heading {
+    font-size: 20px;
+}
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer {
