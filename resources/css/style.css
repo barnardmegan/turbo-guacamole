@@ -1,11 +1,30 @@
 /* -------------------- VARIABLES */
+
+:root {
+    --mina-bg-color: #f1bdb7;
+
+    --vertical-spacer: 20px;
+
+    --padder: 3%%;
+
+    --alternate-bg-color: #f1bdb7;
+
+    scroll-behavior: smooth;
+}
 /* -------------------- GLOBAL DEFAULTS */ 
+
+html {
+
+}
 body {
-    background-color: #f1bdb7;
+    background-color: var(--main-bg-color);
     font-family: 'Gothic A1', sans-serif;
     font-weight: 300;
-
     color: #000000;
+    font-size: 18px;
+    line-height: 1.4;
+    
+    box-sizing: border-box;
 }
 
 img {
@@ -50,22 +69,48 @@ p {
     font-style: italic;
 }
 
+
+
  /* -------------------- LAYOUTS */
  .content{
      background-color: #f3edeb;
      max-width: 1000px;
      margin-left: auto;
      margin-right: auto;
-     padding-left: 3%;
-     padding-right: 3%;
+     padding-left: var(--padder);
+     padding-right: var(--padder);
 
  }
 /* -------------------- HEADER */
+
+header {
+    background-color:  var(--alternate-bg-color) ;
+    padding-top: var(--vertical-spacer);
+    padding-bottom: var(--vertical-spacer)
+}
+
+header h1 {
+    margin-top: 0;
+    color: #000000;
+}
+
+header p {
+    color: #000000;
+}
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer {
-    background-color: #f1bdb7 
+    background-color:  var(--alternate-bg-color) ;
+    padding-top: var(--vertical-spacer);
+    padding-bottom: var(--vertical-spacer);
 }
+/* BUTTONS */
+.back-top a {
+    background-color: var(--alternate-bg-color);
+    color: var(--main-bg-color);
+    padding: var(--main-bg-color)
+}
+
 /* -------------------- MODULES */
 
 .news-component {
@@ -118,10 +163,10 @@ footer {
     grid-gap: 20px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 800px) {
 
 .news-component-columns {
-    grid-template-columns: 1fr 1fe;
+    grid-template-columns: 1fr 1fr;
 }
 
 }
