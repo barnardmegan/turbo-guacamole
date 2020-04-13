@@ -116,12 +116,26 @@ header a {
 
 .header-heading {
     font-size: 56px;
+}
 
 .header-logo img {
     max-width: 200px;
 }
 
+header .content {
+    display: grid;
+    grid-template-columns: 200px auto;
 }
+
+.header-text {
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
 /* -------------------- NAVIGATION */
 /* -------------------- FOOTER */
 footer {
