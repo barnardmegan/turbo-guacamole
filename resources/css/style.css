@@ -137,11 +137,28 @@ header .content {
 }
 
 /* -------------------- NAVIGATION */
+
+.navigation {
+
+background-color: var(--alternate-bg-color);
+
+}
+
+.navigation .content {
+
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* -------------------- FOOTER */
 footer {
     background-color:  var(--alternate-bg-color) ;
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
+
+    text-align: center;
+    color: #000000;
 }
 /* BUTTONS */
 .back-top a {
