@@ -19,7 +19,7 @@ html {
 body {
     background-color: var(--alternate-bg-color);
     font-family: 'Playfair Display', serif;
-    font-weight: 300;
+    font-weight: 900;
     color: #000000;
     font-size: 18px;
     line-height: 1.4;
@@ -72,6 +72,7 @@ p {
 
 
  /* -------------------- LAYOUTS */
+
  .content{
      /*background-color: #f3edeb;*/
      max-width: 1000px;
@@ -88,7 +89,6 @@ header {
     background-color:  var(--alternate-bg-color) ;
     padding-top: var(--vertical-spacer);
     padding-bottom: var(--vertical-spacer);
-
     text-align: center;
     color: #000000;
 }
@@ -131,7 +131,6 @@ header .content {
 
 .header-text {
     text-align: right;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -159,10 +158,12 @@ padding-top: 10px;
     display: flex;
     justify-content: space-between;
 
+
 }
 
 .navigation a {
     color: #000000;
+    text-decoration: none;
 }
 
 /* -------------------- FOOTER */
@@ -174,7 +175,9 @@ footer {
     text-align: center;
     color: #000000;
 }
+
 /* BUTTONS */
+
 .back-top a {
     background-color: var(--alternate-bg-color);
     color: var(--main-bg-color);
@@ -184,7 +187,7 @@ footer {
 /* -------------------- MODULES */
 
 main {
-    background-color: yellow;
+    background-color: #efe3dd;
 }
 
 .news-component {
@@ -245,22 +248,71 @@ main {
     filter: unset;
 }
 
-
-
 @media screen and (min-width: 800px) {
 
 .news-component-columns {
     grid-template-columns: 1fr 1fr;
 }
 
+/* -------------------- BLOG GRID */
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    
 }
 
+.container a {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
 
+.container a img {
+    filter: grayscale();
+    
+}
 
+}
 
+.container a:hover img {
+    filter: unset;
+    
+}
 
+/* -------------------- HERO MODULE */
 
+.hero-module {
+    position: relative;
 
+}
 
+.hero-module img {
+    width: 100%;
+}
 
+@media screen and (min-width: 800px) {
+    
+    .hero-content {
+        position: absolute;
 
+        width: 100%;
+        height: 100%;
+
+        bottom: 0;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-module .heading-main {
+        color: #000000;
+        background-color: var(--main-bg-color);
+    }
+
+}
