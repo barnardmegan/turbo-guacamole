@@ -7,7 +7,7 @@
 
     --padder: 3%%;
 
-    --alternate-bg-color: #f1bdb7;
+    --alternate-bg-color:  #f1bdb7;
 
     scroll-behavior: smooth;
 }
@@ -34,7 +34,7 @@ img {
 
 /* -------------------- HEADINGS AND TYPE */
 
-h1,
+h1, 
 h2,
 h3,
 h4,
@@ -47,6 +47,7 @@ h5 {
 
 h1 {
     font-size: 40px;
+    
 }
 
 h2 {
@@ -58,18 +59,16 @@ h3 {
     color: 000000;
 }
 
-
 p {
     color: 000000;
     font-family: 'Gothic A1', sans-serif;
     font-weight: 300;
+    padding-bottom: 1.5%;
 }
 
 .emphasised-text {
     font-style: italic;
 }
-
-
 
  /* -------------------- LAYOUTS */
 
@@ -80,6 +79,7 @@ p {
      margin-right: auto;
      padding-left: var(--padder);
      padding-right: var(--padder);
+     padding-top: .1%;
      
 
  }
@@ -106,15 +106,16 @@ header a {
 }
 
 .header-sub-heading {
+    font-family: 'Gothic A1', sans-serif;
     font-size: 20px;
     font-style: italic;
 }
 
 @media screen and (min-width: 800px) {
 
-    header {
-        text-align: left;
-    }
+header {
+    text-align: left;
+}
 
 .header-heading {
     font-size: 56px;
@@ -130,11 +131,10 @@ header .content {
 }
 
 .header-text {
-    text-align: right;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 
 /* -------------------- NAVIGATION */
@@ -158,7 +158,6 @@ padding-top: 10px;
     display: flex;
     justify-content: space-between;
 
-
 }
 
 .navigation a {
@@ -173,7 +172,7 @@ footer {
     padding-bottom: var(--vertical-spacer);
 
     text-align: center;
-    color: #000000;
+    color: #000000;  
 }
 
 /* BUTTONS */
@@ -264,7 +263,7 @@ main {
     grid-row-gap: 30px;
     
 }
-
+    
 .container a {
     color: #000000;
     text-decoration: none;
@@ -272,15 +271,15 @@ main {
 }
 
 .container a img {
-    filter: grayscale();
+    filter: grayscale() opacity(0.9);
     
 }
 
 }
-
 .container a:hover img {
     filter: unset;
-    
+}
+   
 }
 
 /* -------------------- HERO MODULE */
@@ -316,3 +315,33 @@ main {
     }
 
 }
+
+/* SOCIAL MEDIA BUTTONS */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-bottom: 1cm;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-bottom: 1cm;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
