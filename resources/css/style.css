@@ -172,7 +172,8 @@ footer {
     padding-bottom: var(--vertical-spacer);
 
     text-align: center;
-    color: #000000;  
+    color: #000000;
+  
 }
 
 /* BUTTONS */
@@ -279,8 +280,7 @@ main {
 .container a:hover img {
     filter: unset;
 }
-   
-}
+
 
 /* -------------------- HERO MODULE */
 
