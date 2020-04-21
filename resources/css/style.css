@@ -11,6 +11,7 @@
 
     scroll-behavior: smooth;
 }
+
 /* -------------------- GLOBAL DEFAULTS */ 
 
 html {
@@ -27,8 +28,14 @@ body {
     box-sizing: border-box;
 }
 
-img {
+img,
+iframe,
+video,
+audio {
     max-width: 100%;
+}
+
+img {
     height: auto;
 }
 
@@ -73,7 +80,6 @@ p {
  /* -------------------- LAYOUTS */
 
  .content{
-     /*background-color: #f3edeb;*/
      max-width: 1000px;
      margin-left: auto;
      margin-right: auto;
@@ -166,6 +172,7 @@ padding-top: 10px;
 }
 
 /* -------------------- FOOTER */
+
 footer {
     background-color:  var(--alternate-bg-color) ;
     padding-top: var(--vertical-spacer);
@@ -176,13 +183,44 @@ footer {
   
 }
 
-/* BUTTONS */
+/* -------------------- BUTTONS */
 
 .back-top a {
     background-color: var(--alternate-bg-color);
     color: var(--main-bg-color);
     padding: var(--main-bg-color)
 }
+
+/* -------------------- SOCIAL MEDIA BUTTONS */
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-bottom: 1cm;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-bottom: 1cm;
+  }
+
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
 
 /* -------------------- MODULES */
 
@@ -316,32 +354,3 @@ main {
 
 }
 
-/* SOCIAL MEDIA BUTTONS */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-    margin-bottom: 1cm;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-    margin-bottom: 1cm;
-  }
-
-  .fa-pinterest {
-    background: #cb2027;
-    color: white;
-  }
