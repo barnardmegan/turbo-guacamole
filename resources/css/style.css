@@ -86,6 +86,7 @@ p {
      padding-left: var(--padder);
      padding-right: var(--padder);
      padding-top: .1%;
+     padding-bottom: .3%;
      
 
  }
